@@ -1,0 +1,14 @@
+#pragma once
+/*
+	œ‘ æ≤„¿‡
+*/
+class CLayer
+{
+public:
+	CLayer(void);
+	~CLayer(void);
+	int AddLayer(void);
+	// …æ≥˝≤„
+	int RemoveLayer(void);
+};
+
