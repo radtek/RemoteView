@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteViewLib", "RemoteViewLib\RemoteViewLib.vcxproj", "{71440142-17FD-4C14-80B6-6E3B78BE6EAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3AA27198-E578-4255-888E-BA73932B94D0} = {3AA27198-E578-4255-888E-BA73932B94D0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rdesktop-1.2.0", "3rdPart\win32\rdesktop-1.2.0\rdesktop-1.2.0.vcxproj", "{3AA27198-E578-4255-888E-BA73932B94D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +18,10 @@ Global
 		{71440142-17FD-4C14-80B6-6E3B78BE6EAC}.Debug|Win32.Build.0 = Debug|Win32
 		{71440142-17FD-4C14-80B6-6E3B78BE6EAC}.Release|Win32.ActiveCfg = Release|Win32
 		{71440142-17FD-4C14-80B6-6E3B78BE6EAC}.Release|Win32.Build.0 = Release|Win32
+		{3AA27198-E578-4255-888E-BA73932B94D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AA27198-E578-4255-888E-BA73932B94D0}.Debug|Win32.Build.0 = Debug|Win32
+		{3AA27198-E578-4255-888E-BA73932B94D0}.Release|Win32.ActiveCfg = Release|Win32
+		{3AA27198-E578-4255-888E-BA73932B94D0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

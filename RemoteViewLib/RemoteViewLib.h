@@ -15,6 +15,7 @@ class REMOTEVIEWLIB_API CRemoteViewLib {
 public:
 	CRemoteViewLib(void);
 	// TODO: 在此添加您的方法。
+//	int RD(void);
 };
 
 extern REMOTEVIEWLIB_API int nRemoteViewLib;

@@ -20,3 +20,9 @@ CRemoteViewLib::CRemoteViewLib()
 {
 	return;
 }
+
+
+//int CRemoteViewLib::RD(void)
+//{
+//	return 0;
+//}
